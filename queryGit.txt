@@ -13,16 +13,25 @@ git commit
 git config
 git branch
 git help
+
 git log		//melihat history
 git log -3	//melihat 3 history yang telah terjadi
 git log -- style.css //melihat history pada file style.css
+
 git checkout 34433 -- style.css	 //mengembalikan keadaan sebelum style.css menghilang atau terhapus dengan has
+git checkout dosen	//berpindah ke dosen
+
 git restore --staged <file> // mengembalikan file yang dihapus
+
 git log --all --decorate --oneline --graph
 alias graph="git log --all --decorate --oneline --graph"
+
 git branch -d dosen //menghapus branch dosen
 git branch -D staff //menghapus branch staff meskipun belum di merge
-git branch --merged //melihat branch yang sudah di merge
+
+git branch --merged //untuk mengetahui branch manan yang sudah di merge
+git merge dosen //nge-merge dosen
+
 
 //
 pwd //melihat posisi sekarang
@@ -32,7 +41,11 @@ cd
 
 ...
 
-AREA
+//AREA
 working tree 
 staging area
 history
+
+//Jenis Merge
+Fast Forward	//nge-merge yang langsung ke jalur utama
+Three-way Merge	//nge-merge tapi tidak langsung ke jalur utama
