@@ -1,5 +1,3 @@
-saya ingin menghapush tulisani iniBERI judul
-
 mysqli_num_rows //untuk melihat jumlah
 round //membulatkan bilangan desimal ke pecahan terdekatnya
 floor //membulatkan ke bawah
