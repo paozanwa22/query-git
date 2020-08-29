@@ -40,6 +40,7 @@ git remote -v //melihat data remote lebih detail
 git config --list //melihat username dan email
 git push -u origin master //mengirim untuk pertama kali
 git push 
+perintah jika terjadi perubahan pada remot dan git local (ganti baris ini dengan jawaban anda)
 
 
 
