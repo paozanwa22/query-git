@@ -33,9 +33,11 @@ git branch -D staff //menghapus branch staff meskipun belum di merge
 git branch --merged //untuk mengetahui branch manan yang sudah di merge
 git merge dosen //nge-merge dosen
 
+//#8
 git clone http...
 git remote	//melihat remote yang sudah di buat
 git remote -v //melihat data remote lebih detail
+git config --list //melihat username dan email
 
 
 
@@ -43,7 +45,8 @@ git remote -v //melihat data remote lebih detail
 pwd //melihat posisi sekarang
 ls //melihat isi
 clear
-cd 
+cd
+mkdir wpu-git-test-2	//membuat folder baru
 
 ...
 
