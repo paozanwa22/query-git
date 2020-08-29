@@ -40,8 +40,6 @@ git remote -v //melihat data remote lebih detail
 git config --list //melihat username dan email
 git push -u origin master //mengirim untuk pertama kali
 git push 
-perintah jika terjadi perubahan pada remot dan git local (ganti baris ini dengan jawaban anda)
-
 git fetch	//cek repo yang ada di remot sama tidak dengan yang ada di local kita
 git pull	//mengambil perubahann yang ada di remote(maka otomatis conflik nya ada terlihat di code editor)
 
