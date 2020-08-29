@@ -18,6 +18,11 @@ git log -3	//melihat 3 history yang telah terjadi
 git log -- style.css //melihat history pada file style.css
 git checkout 34433 -- style.css	 //mengembalikan keadaan sebelum style.css menghilang atau terhapus dengan has
 git restore --staged <file> // mengembalikan file yang dihapus
+git log --all --decorate --oneline --graph
+alias graph="git log --all --decorate --oneline --graph"
+git branch -d dosen //menghapus branch dosen
+git branch -D staff //menghapus branch staff meskipun belum di merge
+git branch --merged //melihat branch yang sudah di merge
 
 //
 pwd //melihat posisi sekarang
