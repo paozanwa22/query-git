@@ -43,6 +43,34 @@ git push
 git fetch	//cek repo yang ada di remot sama tidak dengan yang ada di local kita
 git pull	//mengambil perubahann yang ada di remote(maka otomatis conflik nya ada terlihat di code editor)
 
+#10 MULTIPLE REMOTES
+git merge sandhikagalih/master //kita merge punya kita ke sandhikagalih (untuk menyamakan perubahan)
+git checkout -b <nama branch> //buat branch baru dan berpindah
+git push origin --delete <nama branch> // menghapus branch yang ada di github
+git remote add sandhikagalih htt... //
+git fetch sandhikagalih //cek perubahan github sandhikagalih (mengambil commit yang terjadi pada repo github sandhikagalih)
+git remote -v //cek remote lebih detail
+git push -u origin master //push ke github kita
+
+#11 REMOTE BRANCH
+git checkout -b features //keluar, membuat branch features dan berpindah
+git push origin features //push ke remote="origin" pada branch="features"
+git merge sandhikagalih/master //nge-merge sandhikagalih/master ke master kita (local)
+git branch -d features //untuk menghapus branch di local
+git push origin --delete features //menghapus branch pada remote (github)
+
+#12 GITIGNORE
+.gitignore //tempat mendaftarkan file tertentu supaya tidak ikut saat melakukan commit (git add .)
+config.txt
+data/
+*.exe
+
+gitignore.io //OS apa, kode editor apa, dan pramework apa.
+
+#13 GIT REBASE
+#14 GIT & WEB HOSTING
+
+
 
 
 
