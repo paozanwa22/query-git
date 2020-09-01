@@ -68,6 +68,8 @@ data/
 gitignore.io //OS apa, kode editor apa, dan pramework apa.
 
 #13 GIT REBASE
+sama seperti merge
+
 #14 GIT & WEB HOSTING
 
 
