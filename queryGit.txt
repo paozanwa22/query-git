@@ -1,3 +1,6 @@
+//Menghapus Commit
+https://sethrobertson.github.io/GitFixUm/fixup.html
+
 
 git
 git --version
