@@ -1,8 +1,4 @@
-mysqli_num_rows //untuk melihat jumlah
-round //membulatkan bilangan desimal ke pecahan terdekatnya
-floor //membulatkan ke bawah
-ceil //membulatkan ke atas
-//
+
 git
 git --version
 git init
@@ -71,11 +67,6 @@ gitignore.io //OS apa, kode editor apa, dan pramework apa.
 sama seperti merge
 
 #14 GIT & WEB HOSTING
-
-
-
-
-
 
 //
 pwd //melihat posisi sekarang
