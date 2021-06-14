@@ -1,6 +1,10 @@
 //Menghapus Commit
 https://sethrobertson.github.io/GitFixUm/fixup.html
 
+git config --list
+git config --global user.email "fausanwadi@gmail.com"
+git confit --global user.name "paozanwa22"
+
 
 git
 git --version
