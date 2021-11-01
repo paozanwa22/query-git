@@ -5,6 +5,9 @@ git config --list
 git config --global user.email "fausanwadi@gmail.com"
 git confit --global user.name "paozanwa22"
 
+rm -rf .git //membatalkan git init
+git reset --hard HEAD^ //menghapus commit posisi saat ini
+git reset --hard HEAD~3 //menghapus 3 commit dihitung dari head saat ini
 
 git
 git --version
