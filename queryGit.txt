@@ -1,3 +1,9 @@
+//SSH
+ssh-keygen //membuah ssh
+cat .ssh/id_rsa.pub //melihat isi file id_rsa.pub
+
+
+
 //Menghapus Commit
 https://sethrobertson.github.io/GitFixUm/fixup.html
 
