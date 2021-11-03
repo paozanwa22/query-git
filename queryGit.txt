@@ -13,7 +13,10 @@ git confit --global user.name "paozanwa22"
 
 rm -rf .git //membatalkan git init
 git reset --hard HEAD^ //menghapus commit posisi saat ini
+git reset --soft HEAD~1  //menghapus commit tanpa menghapus perubahan
 git reset --hard HEAD~3 //menghapus 3 commit dihitung dari head saat ini
+
+git reset HEAD <nama_file>  //mengeluarkan dari repo
 
 git
 git --version
