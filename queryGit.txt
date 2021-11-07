@@ -50,6 +50,7 @@ git merge dosen //nge-merge dosen
 
 //#8
 git clone http...
+git remote remove <nama_remote> //menghapus remote
 git remote	//melihat remote yang sudah di buat
 git remote -v //melihat data remote lebih detail
 git config --list //melihat username dan email
